@@ -1,0 +1,11 @@
+"""x=10
+print(type(x))"""
+Name="Techpile"
+print(Name[0])
+print(Name[0:5])
+print(Name[0:])
+print(Name[-4:-1])
+print(Name[-7])
+print(Name[:])
+print(Name[-4:])
+print(Name[2:1000])
