@@ -3,7 +3,7 @@ import turtle
 import colorsys
 
 
-t=turtle.Turtle()
+t=turtle.turtle()
 s=turtle.Screen()
 s.bgcolor("black")
 

@@ -1,5 +1,4 @@
 import turtle
-
 turtle.bgcolor("black")
 turtle.pensize(2)
 turtle.speed(0)

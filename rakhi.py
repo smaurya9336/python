@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-import numpy as np
+import num1 as np
 
 #set random points
 def update_line(i,data,dx,line):

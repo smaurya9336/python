@@ -1,6 +1,20 @@
 from tkinter import *
 from tkinter import messagebox
-
+import mysql.connector as c
+"""mydb=c.connect(host="localhost",user="root",password="sarita",database="login")
+cursor=mydb.cursor()
+while True:
+    name=input("Enter User Name:")
+    salary=int(input("Enter your password:"))
+    query="insert into emp values('{}',{})".format(username,password)
+    cursor.execute(query)
+    mydb.commit()
+    print("Data Inserted Successfully...")
+    x=int(input("1->Enter More\n2->Exit\nEnter choice:"))
+    if x==2:
+        break"""
+   
+    
 def login():
     username=entry1.get()
     password=entry2.get()
@@ -8,11 +22,12 @@ def login():
     if(username ==" " and password ==" "):
         messagebox.showinfo(" " , "Blank not allowed")
 
-    elif(username =="sarita" and password =="admin"):
+    elif(username =="sarita" and password =="12345"):
         messagebox.showinfo(" ","login success")
 
     else:
         messagebox.showinfo(" ","incorrect username")
+        
 
 
 root=Tk()

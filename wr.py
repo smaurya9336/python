@@ -1,0 +1,6 @@
+#f=open('demo1.txt','w+')
+f=open('demo1.txt','r+')
+print(f.tell())
+f.write('ddddd')
+print(f.tell())
+print(f.read())
